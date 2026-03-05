@@ -33,7 +33,7 @@ const skills = (await collectAllSkills(repos)).sort((a, b) => a.title.localeComp
       <article class="skill-card" data-title={skill.title.toLowerCase()} data-tags={skill.tags.join(' ').toLowerCase()}>
         <div class="skill-head">
           <p class="repo">{skill.repoName || skill.repoId}</p>
-          <h3><a href={`/skills/${skill.id}`}>{skill.title}</a></h3>
+          <h3><a href={`./${skill.id}`}>{skill.title}</a></h3>
         </div>
         <p class="skill-desc">{skill.description}</p>
         <div class="tag-row">
