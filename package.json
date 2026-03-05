@@ -14,7 +14,6 @@
     "aggregate": "tsx scripts/aggregate.ts"
   },
   "dependencies": {
-    "@astrojs/node": "^8.2.0",
     "astro": "^5.17.0",
     "dotenv": "^16.4.5",
     "gray-matter": "^4.0.3",
